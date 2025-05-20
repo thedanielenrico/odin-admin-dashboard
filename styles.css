@@ -20,6 +20,7 @@ body {
   width: 100%;
   height: 100%;
   grid-area: 1 / 1 / -1 / 2;
+  padding: 24px;
 }
 
 .header {
@@ -56,6 +57,18 @@ body {
   width: 100%;
   height: 100%;
   grid-area: 2 / 2 / -1 / -1;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  span {
+    margin-right: 8px;
+  }
+}
+
+ul {
+  text-align: left;
 }
 
 .material-symbols-outlined {
